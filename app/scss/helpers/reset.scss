@@ -6,8 +6,10 @@
 	HTML5 Doctor				:: https://html5doctor.com
 	and the HTML5 Boilerplate	:: https://html5boilerplate.com
 -------------------------------------------------------------------------------*/
+
 /* Let's default this puppy out
 -------------------------------------------------------------------------------*/
+
 html,
 body,
 body div,
@@ -80,7 +82,8 @@ summary {
   font-size: 100%;
   font-weight: normal;
   vertical-align: baseline;
-  background: transparent; }
+  background: transparent;
+}
 
 article,
 aside,
@@ -91,25 +94,30 @@ nav,
 section,
 details,
 summary {
-  display: block; }
+  display: block;
+}
 
 /* Handle box-sizing while better addressing child elements:
    https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 *,
 *:before,
 *:after {
-  box-sizing: inherit; }
+  box-sizing: inherit;
+}
 
 /* consider resetting the default cursor: https://gist.github.com/murtaugh/5247154 */
+
 /* Responsive images and other embedded objects
 */
 img,
 object,
 embed {
-  max-width: 100%; }
+  max-width: 100%;
+}
 
 /*
    Note: keeping IMG here will cause problems if you're using foreground images as sprites.
@@ -119,53 +127,62 @@ embed {
 		max-width: none;
 }
 */
+
 /* force a vertical scrollbar to prevent a jumpy page */
 html {
-  overflow-y: scroll; }
+  overflow-y: scroll;
+}
 
 /* we use a lot of ULs that aren't bulleted.
 	don't forget to restore the bullets within content. */
 ul {
-  list-style: none; }
+  list-style: none;
+}
 
 blockquote,
 q {
-  quotes: none; }
+  quotes: none;
+}
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
   content: "";
-  content: none; }
+  content: none;
+}
 
 a {
   margin: 0;
   padding: 0;
   font-size: 100%;
   vertical-align: baseline;
-  background: transparent; }
+  background: transparent;
+}
 
 del {
-  text-decoration: line-through; }
+  text-decoration: line-through;
+}
 
 abbr[title],
 dfn[title] {
   border-bottom: 1px dotted #000;
-  cursor: help; }
+  cursor: help;
+}
 
 /* tables still need cellspacing="0" in the markup */
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
-
+  border-spacing: 0;
+}
 th {
   font-weight: bold;
-  vertical-align: bottom; }
-
+  vertical-align: bottom;
+}
 td {
   font-weight: normal;
-  vertical-align: top; }
+  vertical-align: top;
+}
 
 hr {
   display: block;
@@ -173,72 +190,79 @@ hr {
   border: 0;
   border-top: 1px solid #ccc;
   margin: 1em 0;
-  padding: 0; }
+  padding: 0;
+}
 
 input,
 select {
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
 pre {
-  white-space: pre;
-  /* CSS2 */
-  white-space: pre-wrap;
-  /* CSS 2.1 */
-  white-space: pre-line;
-  /* CSS 3 (and 2.1 as well, actually) */
-  word-wrap: break-word;
-  /* IE */ }
+  white-space: pre; /* CSS2 */
+  white-space: pre-wrap; /* CSS 2.1 */
+  white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+  word-wrap: break-word; /* IE */
+}
 
 input[type="radio"] {
-  vertical-align: text-bottom; }
-
+  vertical-align: text-bottom;
+}
 input[type="checkbox"] {
-  vertical-align: bottom; }
-
+  vertical-align: bottom;
+}
 .ie7 input[type="checkbox"] {
-  vertical-align: baseline; }
-
+  vertical-align: baseline;
+}
 .ie6 input {
-  vertical-align: text-bottom; }
+  vertical-align: text-bottom;
+}
 
 select,
 input,
 textarea {
-  font: 99% sans-serif; }
+  font: 99% sans-serif;
+}
 
 table {
   font-size: inherit;
-  font: 100%; }
+  font: 100%;
+}
 
 small {
-  font-size: 85%; }
+  font-size: 85%;
+}
 
 strong {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 td,
 td img {
-  vertical-align: top; }
+  vertical-align: top;
+}
 
 /* Make sure sup and sub don't mess with your line-heights https://gist.github.com/413930 */
 sub,
 sup {
   font-size: 75%;
   line-height: 0;
-  position: relative; }
-
+  position: relative;
+}
 sup {
-  top: -0.5em; }
-
+  top: -0.5em;
+}
 sub {
-  bottom: -0.25em; }
+  bottom: -0.25em;
+}
 
 /* standardize any monospaced elements */
 pre,
 code,
 kbd,
 samp {
-  font-family: monospace, sans-serif; }
+  font-family: monospace, sans-serif;
+}
 
 /* hand cursor on clickable elements */
 .clickable,
@@ -247,39 +271,45 @@ input[type="button"],
 input[type="submit"],
 input[type="file"],
 button {
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 /* Webkit browsers add a 2px margin outside the chrome of form elements */
 button,
 input,
 select,
 textarea {
-  margin: 0; }
+  margin: 0;
+}
 
 /* make buttons play nice in IE */
 button,
 input[type="button"] {
   width: auto;
-  overflow: visible; }
+  overflow: visible;
+}
 
 /* scale images in IE7 more attractively */
 .ie7 img {
-  -ms-interpolation-mode: bicubic; }
+  -ms-interpolation-mode: bicubic;
+}
 
 /* prevent BG image flicker upon hover
    (commented out as usage is rare, and the filter syntax messes with some pre-processors)
 .ie6 html {filter: expression(document.execCommand("BackgroundImageCache", false, true));}
 */
+
 /* let's clear some floats */
 .clearfix:before,
 .clearfix:after {
   content: "\0020";
   display: block;
   height: 0;
-  overflow: hidden; }
-
+  overflow: hidden;
+}
 .clearfix:after {
-  clear: both; }
-
+  clear: both;
+}
 .clearfix {
-  zoom: 1; }
+  zoom: 1;
+}
