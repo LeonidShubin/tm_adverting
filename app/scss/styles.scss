@@ -1,4 +1,57 @@
 @import "helpers/reset";
 @import "helpers/variables";
 @import "helpers/typography";
-@import "helpers/components";
+@import "helpers/swiper";
+
+@import "sections/header.scss";
+@import "sections/slider.scss";
+@import "sections/about-us.scss";
+@import "sections/blurbs.scss";
+@import "sections/why-us.scss";
+@import "sections/team.scss";
+@import "sections/contact.scss";
+@import "sections/footer.scss";
+
+* {
+  box-sizing: border-box;
+  &::selection {
+    background-color: rgba(adjust-hue($brand-color, 310deg), 0.5);
+  }
+}
+
+.app {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: $main-dark;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.section {
+  max-width: 100%;
+
+  .row {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+}
+
+.card__icon {
+  height: 60px;
+  width: 60px;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.social i {
+  transition: 0.3s;
+
+  &:hover {
+    transform: rotate(30deg);
+  }
+}

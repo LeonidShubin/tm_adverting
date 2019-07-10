@@ -8,6 +8,8 @@
 -------------------------------------------------------------------------------*/
 /* Let's default this puppy out
 -------------------------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400");
 html,
 body,
 body div,
@@ -283,3 +285,360 @@ input[type="button"] {
 
 .clearfix {
   zoom: 1; }
+
+.heading {
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: capitalize; }
+
+.caption {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.89; }
+
+.card__heading {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize; }
+
+.card__caption {
+  font-size: 14px;
+  color: #aaa;
+  line-height: 1.71; }
+
+.swiper-container {
+  background-color: #121212;
+  padding: 128px 0; }
+  .swiper-container .heading,
+  .swiper-container .text {
+    color: #fff; }
+
+.swiper-slide .row {
+  height: 100%;
+  padding: 0 122px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.swiper-button-next, .swiper-button-prev {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin: auto 36px;
+  background: inherit;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  cursor: pointer; }
+  .swiper-button-next:before, .swiper-button-prev:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    margin-left: 4px;
+    border: inherit;
+    border-top: none;
+    border-right: none;
+    transform: rotate(45deg);
+    transition: 0.2s; }
+  .swiper-button-next:hover:before, .swiper-button-prev:hover:before {
+    margin: 0; }
+
+.swiper-button-next {
+  transform: rotate(180deg); }
+
+.header {
+  padding-top: 26px;
+  padding-bottom: 23px;
+  color: #fff; }
+  .header .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .header .logo {
+    display: flex;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    text-transform: capitalize; }
+    .header .logo .logo__icon {
+      margin-top: 10px;
+      margin-right: 10px;
+      height: 25px;
+      width: 35px;
+      background: url(../images/header/header_logo.png) center/contain no-repeat; }
+  .header .nav {
+    margin-left: -69px;
+    display: flex;
+    justify-content: space-between;
+    flex: 0 1 574px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize; }
+    .header .nav a {
+      margin: 0 10px;
+      color: #fff;
+      text-decoration: none; }
+  .header .call-us {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 9px 35px;
+    border: 2px solid #ffc000;
+    border-radius: 50px;
+    transition: 0.3s; }
+    .header .call-us:hover {
+      background: #ffc000; }
+
+.slider {
+  padding: 203px 0;
+  text-align: left;
+  color: #fff;
+  background: #121212;
+  overflow: hidden; }
+  .slider .heading {
+    letter-spacing: -3px;
+    word-spacing: 9px; }
+  .slider .graffity {
+    font-size: 170px;
+    color: #ffc000;
+    text-transform: uppercase; }
+  .slider p {
+    margin-top: 0.8px;
+    max-width: 705px;
+    font-size: 24px;
+    line-height: 1.95;
+    word-spacing: 0.3px; }
+  .slider .swiper-button-prev {
+    margin-left: 100px; }
+  .slider .swiper-button-next {
+    margin-right: 100px; }
+
+.about-us {
+  padding: 107px 0 120px 0;
+  background: #fff url(../images/about/about_bg_lines.png) center bottom/contain no-repeat; }
+  .about-us .heading {
+    letter-spacing: -2.5px;
+    word-spacing: 8px; }
+  .about-us .caption {
+    margin: 0 auto;
+    margin-top: 28px;
+    max-width: 965px;
+    word-spacing: 0.3px; }
+  .about-us .rectangle {
+    margin-top: 66px;
+    max-width: 1170px;
+    height: 500px;
+    background-color: #000; }
+
+.blurbs {
+  padding: 97px 0;
+  background: #000;
+  color: #fff; }
+  .blurbs .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
+  .blurbs .card {
+    flex: 0 1 calc(25% - 20px);
+    margin: 10px; }
+    .blurbs .card .card__icon {
+      margin: auto;
+      margin-top: 10px; }
+      .blurbs .card .card__icon--1 {
+        background: url(../images/blurbs/blurbs_1.png) center/contain no-repeat; }
+      .blurbs .card .card__icon--2 {
+        background: url(../images/blurbs/blurbs_2.png) center/contain no-repeat; }
+      .blurbs .card .card__icon--3 {
+        background: url(../images/blurbs/blurbs_3.png) center/contain no-repeat; }
+      .blurbs .card .card__icon--4 {
+        background: url(../images/blurbs/blurbs_4.png) center/contain no-repeat; }
+    .blurbs .card .card__heading {
+      margin: 0 auto;
+      margin-top: 45px;
+      max-width: 186px;
+      font-size: 30px; }
+    .blurbs .card .card__caption {
+      margin-top: 30px; }
+
+.why-us {
+  padding: 100px 0;
+  background: #fff;
+  color: #000; }
+  .why-us .caption {
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 505px; }
+  .why-us .cards {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left; }
+    .why-us .cards .card {
+      margin-top: 55px;
+      display: flex;
+      flex: 0 1 calc(33% - 35px); }
+      .why-us .cards .card__icon {
+        flex: none;
+        margin-right: 30px; }
+        .why-us .cards .card__icon--1 {
+          background: url(../images/why_us/why_us_1.png) center/contain no-repeat; }
+        .why-us .cards .card__icon--2 {
+          background: url(../images/why_us/why_us_2.png) center/contain no-repeat; }
+        .why-us .cards .card__icon--3 {
+          background: url(../images/why_us/why_us_3.png) center/contain no-repeat; }
+        .why-us .cards .card__icon--4 {
+          background: url(../images/why_us/why_us_4.png) center/contain no-repeat; }
+        .why-us .cards .card__icon--5 {
+          background: url(../images/why_us/why_us_5.png) center/contain no-repeat; }
+        .why-us .cards .card__icon--6 {
+          background: url(../images/why_us/why_us_6.png) center/contain no-repeat; }
+      .why-us .cards .card__caption {
+        margin-top: 15px; }
+
+.team {
+  padding: 110px 0;
+  background: #ffc000;
+  color: #000; }
+  .team .heading {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400; }
+  .team .caption {
+    margin: 0 auto;
+    margin-top: 45px;
+    max-width: 570px;
+    font-family: "PT Sans", sans-serif;
+    color: #000; }
+  .team .employees {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; }
+    .team .employees .person {
+      margin: 10px;
+      padding-bottom: 50px;
+      flex: 0 1 calc(33% - 20px);
+      min-width: 350px;
+      background: #fff;
+      border-radius: 10px; }
+      .team .employees .person__img {
+        height: 210px;
+        background: #000;
+        border-radius: 10px 10px 0 0; }
+      .team .employees .person__name {
+        margin-top: 50px; }
+      .team .employees .person__position {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 3.5;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #ffc000; }
+      .team .employees .person__bio {
+        margin: 0 35px;
+        margin-top: 10px; }
+      .team .employees .person .social {
+        margin: 0 auto;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        max-width: 110px;
+        font-size: 20px;
+        color: #ffc000; }
+        .team .employees .person .social i {
+          cursor: pointer; }
+
+.contact {
+  padding: 100px 0;
+  color: #fff;
+  background: #000; }
+  .contact .heading span {
+    color: #ffc000; }
+  .contact .caption {
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 590px;
+    color: #fff; }
+  .contact .input-mail {
+    margin: 0 auto;
+    margin-top: 65px;
+    height: 60px;
+    max-width: 780px;
+    border-radius: 30px;
+    background: #fff; }
+    .contact .input-mail input {
+      float: left;
+      margin-top: 20px;
+      margin-left: 25px;
+      width: calc(100% - 250px);
+      font-size: 18px;
+      border: none; }
+      .contact .input-mail input:focus {
+        outline: none; }
+    .contact .input-mail .submit-button {
+      padding-top: 20px;
+      float: right;
+      width: 220px;
+      height: 60px;
+      background: #ffc000;
+      font-size: 18px;
+      font-weight: 700;
+      text-transform: uppercase;
+      border-radius: 0 30px 30px 0;
+      box-shadow: 1px 1px 10px 2px #000;
+      box-sizing: border-box;
+      transition: 0.2s; }
+      .contact .input-mail .submit-button:hover {
+        box-shadow: 0 0 0 0 #000; }
+
+.footer {
+  padding: 30px 0;
+  background: #f5f5f5; }
+  .footer .row {
+    display: flex;
+    justify-content: space-between; }
+  .footer b {
+    font-weight: 600; }
+  .footer .social {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 1 115px;
+    font-size: 18px;
+    color: #949393; }
+    .footer .social i {
+      cursor: pointer; }
+
+* {
+  box-sizing: border-box; }
+  *::selection {
+    background-color: rgba(255, 0, 21, 0.5); }
+
+.app {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #000;
+  text-align: center;
+  font-family: "Poppins", sans-serif; }
+
+.section {
+  max-width: 100%; }
+  .section .row {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 10px; }
+
+.card__icon {
+  height: 60px;
+  width: 60px; }
+
+.button {
+  cursor: pointer; }
+
+.social i {
+  transition: 0.3s; }
+  .social i:hover {
+    transform: rotate(30deg); }

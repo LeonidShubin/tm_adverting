@@ -1,0 +1,58 @@
+.why-us {
+  padding: 100px 0;
+  background: $main-light;
+  color: $main-dark;
+
+  .caption {
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 505px;
+  }
+
+  .cards {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+
+    .card {
+      margin-top: 55px;
+      display: flex;
+      flex: 0 1 calc(33% - 35px);
+
+      &__icon {
+        flex: none;
+        margin-right: 30px;
+
+        &--1 {
+          background: url(../images/why_us/why_us_1.png) center/contain no-repeat;
+        }
+
+        &--2 {
+          background: url(../images/why_us/why_us_2.png) center/contain no-repeat;
+        }
+
+        &--3 {
+          background: url(../images/why_us/why_us_3.png) center/contain no-repeat;
+        }
+
+        &--4 {
+          background: url(../images/why_us/why_us_4.png) center/contain no-repeat;
+        }
+
+        &--5 {
+          background: url(../images/why_us/why_us_5.png) center/contain no-repeat;
+        }
+
+        &--6 {
+          background: url(../images/why_us/why_us_6.png) center/contain no-repeat;
+        }
+      }
+
+      &__caption {
+        margin-top: 15px;
+      }
+    }
+  }
+}

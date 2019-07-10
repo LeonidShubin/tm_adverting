@@ -1,0 +1,25 @@
+.footer {
+  padding: 30px 0;
+  background: #f5f5f5;
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  b {
+    font-weight: 600;
+  }
+
+  .social {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 1 115px;
+    font-size: 18px;
+    color: #949393;
+
+    i {
+      cursor: pointer;
+    }
+  }
+}

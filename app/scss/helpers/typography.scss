@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400");
+
+$poppins: "Poppins", sans-serif;
+
+.heading {
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.caption {
+  font-size: 18px;
+  color: $caption-color;
+  line-height: 1.89;
+}
+
+.card__heading {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.card__caption {
+  font-size: 14px;
+  color: $card-caption-color;
+  line-height: 1.71;
+}

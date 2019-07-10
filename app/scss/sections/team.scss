@@ -1,0 +1,72 @@
+.team {
+  padding: 110px 0;
+  background: $brand-color;
+  color: $main-dark;
+
+  .heading {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+  }
+
+  .caption {
+    margin: 0 auto;
+    margin-top: 45px;
+    max-width: 570px;
+    font-family: "PT Sans", sans-serif;
+    color: $main-dark;
+  }
+
+  .employees {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    .person {
+      margin: 10px;
+      padding-bottom: 50px;
+      flex: 0 1 calc(33% - 20px);
+      min-width: 350px;
+      background: $main-light;
+      border-radius: 10px;
+
+      &__img {
+        height: 210px;
+        background: $main-dark;
+        border-radius: 10px 10px 0 0;
+      }
+
+      &__name {
+        margin-top: 50px;
+      }
+
+      &__position {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 3.5;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: $brand-color;
+      }
+
+      &__bio {
+        margin: 0 35px;
+        margin-top: 10px;
+      }
+
+      .social {
+        margin: 0 auto;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        max-width: 110px;
+        font-size: 20px;
+        color: $brand-color;
+
+        i {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

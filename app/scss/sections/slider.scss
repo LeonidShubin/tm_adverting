@@ -1,0 +1,34 @@
+.slider {
+  padding: 203px 0;
+  text-align: left;
+  color: $main-light;
+  background: #121212;
+  overflow: hidden;
+
+  .heading {
+    letter-spacing: -3px;
+    word-spacing: 9px;
+  }
+
+  .graffity {
+    font-size: 170px;
+    color: $brand-color;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin-top: 0.8px;
+    max-width: 705px;
+    font-size: 24px;
+    line-height: 1.95;
+    word-spacing: 0.3px;
+  }
+
+  .swiper-button-prev {
+    margin-left: 100px;
+  }
+
+  .swiper-button-next {
+    margin-right: 100px;
+  }
+}

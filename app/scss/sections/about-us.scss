@@ -1,0 +1,23 @@
+.about-us {
+  padding: 107px 0 120px 0;
+  background: $main-light url(../images/about/about_bg_lines.png) center bottom/contain no-repeat;
+
+  .heading {
+    letter-spacing: -2.5px;
+    word-spacing: 8px;
+  }
+
+  .caption {
+    margin: 0 auto;
+    margin-top: 28px;
+    max-width: 965px;
+    word-spacing: 0.3px;
+  }
+
+  .rectangle {
+    margin-top: 66px;
+    max-width: 1170px;
+    height: 500px;
+    background-color: $main-dark;
+  }
+}

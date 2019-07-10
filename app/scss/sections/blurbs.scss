@@ -1,0 +1,48 @@
+.blurbs {
+  padding: 97px 0;
+  background: $main-dark;
+  color: $main-light;
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .card {
+    flex: 0 1 calc(25% - 20px);
+    margin: 10px;
+
+    .card__icon {
+      margin: auto;
+      margin-top: 10px;
+
+      &--1 {
+        background: url(../images/blurbs/blurbs_1.png) center/contain no-repeat;
+      }
+
+      &--2 {
+        background: url(../images/blurbs/blurbs_2.png) center/contain no-repeat;
+      }
+
+      &--3 {
+        background: url(../images/blurbs/blurbs_3.png) center/contain no-repeat;
+      }
+
+      &--4 {
+        background: url(../images/blurbs/blurbs_4.png) center/contain no-repeat;
+      }
+    }
+
+    .card__heading {
+      margin: 0 auto;
+      margin-top: 45px;
+      max-width: 186px;
+      font-size: 30px;
+    }
+
+    .card__caption {
+      margin-top: 30px;
+    }
+  }
+}
